@@ -1,0 +1,42 @@
+/* Vezba Paneli*/
+
+.panel-div{
+	height: 300px;
+	width: 80%;
+	margin: 30px auto;
+
+}
+.panel-div ul li{
+	margin-top: 0px;
+	list-style-type: none;
+	display: inline;
+	background: #d3d3d3;
+	padding: 3px 10px;
+	font-size: 20px;
+	margin-right: 10px;
+	border-radius: 5px 5px 0 0;
+	cursor: pointer;
+}
+.panel-div ul li:hover{
+	background-color: #9E9E9E;
+	transition: 0.5s;
+}
+.panel-div ul li.active {
+	background-color:#f1f1f1;
+}
+
+.panel-div .panel{
+	margin: -10px;
+	padding: 3px 10px;
+	display: none;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 5px;
+	
+
+}
+.panel-div .panel.active{
+	display: block;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+}
